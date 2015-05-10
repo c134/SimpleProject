@@ -8,8 +8,9 @@
 <body>
 <h1>Simple project</h1>
 <div class="container-fluid">
-    <p class="btn"> <button  type="button" class="bg-primary">Useless button</button></p>
+    <p class="btn"> <button  type="button" class="bg-primary" onclick="document.getElementById('something').innerHTML = Date()">Get Time</button></p>
     <p class="btn"> <button type="button" class="alert-danger">Another useless button</button></p>
+    <p id="something"></p>
     <div class="row">
         <div class="col-md-6">grid
             <table class="table">
